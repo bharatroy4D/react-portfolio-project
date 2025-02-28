@@ -6,6 +6,7 @@ const Job = ({job}) => {
         <div>
             <div className='border  border-blue-600 rounded-lg p-4'>
                 <img src={logo} alt="" />
+                <h2>{job_title}</h2>
             </div>
         </div>
     );
