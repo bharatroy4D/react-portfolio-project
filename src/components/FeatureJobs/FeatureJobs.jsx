@@ -12,7 +12,7 @@ useEffect(()=>{
     return (
         <div>
             <h2 className='text-5xl'>Feature Jobs:{jobs.length}</h2>
-            <div className='grid grid-cols-4 gap-5'>
+            <div className='grid grid-cols-2 gap-5'>
                 {
                     jobs.map(job =><Job key={job.id} job={job}></Job>)
                 }

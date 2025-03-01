@@ -6,9 +6,11 @@ import Footer from '../Footer/Footer';
 const Root = () => {
     return (
         <div>
-           <Header></Header>
-           <Outlet></Outlet>
-           <Footer></Footer>
+            <div className='max-w-4xl mx-auto '>
+                <Header></Header>
+                <Outlet></Outlet>
+            </div>
+            <Footer></Footer>
         </div>
     );
 };
